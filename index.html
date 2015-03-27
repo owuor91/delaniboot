@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<title>Delani Studios</title>
+</head>
+<body>
+	
+	<!--<div class="container-fluid">-->
+	<div class="my-container">
+		<section id="home">
+			<div class="row">
+				<div class="col-md-12 text-center home-first"><img src="assets/logo/logo.png"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center"><span>WELCOME</span></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center"><span>TO DELANI STUDIOS</span><br><br>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center home-last"><a href="#about"><img src="assets/mouse_click.png"></a></div>
+			</div>
+		</section>	
+		<section id="about">
+		<div class="row">
+			<div class="col-md-12 text-center">
+			<h1>ABOUT US</h1>
+			<p>When you work with us, you are part of a team of committed collaborators.All aspects of our software development process are integrated, iterative and agile</p>
+			<p>Our approach unifies design, development and product management to create exceptional products. We start each project by understanding your business goals, the user's needs and the product requirements. Then we help translate them into effective, elegant solutions.</p>
+			</div>
+		</div>	
+		</section>
+		<section id="services">
+			<h1>SERVICES</h1>
+			<p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
+			<p>The outcome of this scoping session is a proposal of high-level statement of work</p>
+			<p>Based on your requirements we can provide a complete offering or just the pieces you need</p>
+		</section>
+		<section id="what">
+			<h1>WHAT WE DO</h1>
+			<div>
+				<img src="assets/services_icons/design_icon.png"> <br> <br>
+				<span>DESIGN</span>
+				<p>Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
+			</div>
+			<div>
+				<img src="assets/services_icons/dev_icon.png"> <br><br>
+				<span>DEVELOPMENT</span>
+				<p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write test and improve code on a daily basis, using proven practices such as test-driven development and pair programming</p>
+			</div>
+			<div>
+				<img src="assets/services_icons/product_icon.png"> <br> <br>
+				<span>PRODUCT MANAGEMENT</span>
+				<p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve</p>
+			</div>
+		</section>	
+		<section id="portfolio">
+		<h1>PORTFOLIO</h1>
+			<div>
+				<ul>
+					<li><a href="http://www.youtube.com"><img src="assets/portfolio/work1.jpg"></a></li>
+					<li><a href="http://www.google.com"><img src="assets/portfolio/work2.jpg"></a></li>
+					<li><a href="http://www.facebook.com"><img src="assets/portfolio/work3.jpg"></a></li>
+					<li><a href="http://www.twitter.com"><img src="assets/portfolio/work4.jpg"></a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li><a href="http://www.github.com"><img src="assets/portfolio/work5.jpg"></a></li>
+					<li><a href="http://www.9gag.com"><img src="assets/portfolio/work6.jpg"></a></li>
+					<li><a href="http://www.gmail.com"><img src="assets/portfolio/work7.jpg"></a></li>
+					<li><a href="http://www.dropbox.com"><img src="assets/portfolio/work8.jpg"></a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="contact">
+			<h1>CONTACT US</h1>
+			<form>
+				<input type="text" name="name" placeholder="Name...">
+				<input type="text" name="email" placeholder="Email...">
+				<textarea cols="142" rows="10">Your Message here</textarea>
+			</form>
+		</section>	
+		<footer>
+			<ul>
+				<li><a href="http://www.behance.net"><img src="assets/social_icons/behance.png"></a></li>
+				<li><a href="http://www.dribbble.com"><img src="assets/social_icons/dribble.png"></a></li>
+				<li><a href="http://www.facebook.com"><img src="assets/social_icons/facebook.png"></a></li>
+				<li><a href="http://www.flickr.com"><img src="assets/social_icons/flickr.png"></a></li>
+				<li><a href="https://plus.google.com"><img src="assets/social_icons/g_plus.png"></a></li>
+				<li><a href="http://www.pinterest.com"><img src="assets/social_icons/pinterest.png"></a></li>
+				<li><a href="http://www.skype.com"><img src="assets/social_icons/skype.png"></a></li>
+				<li><a href="http://www.stumbleupon"><img src="assets/social_icons/stumble_upon.png"></a></li>
+				<li><a href="http://www.twitter.com"><img src="assets/social_icons/twitter.png"></a></li>
+				<li><a href="http://www.youtube.com"><img src="assets/social_icons/you_tube.png"></a></li>
+			</ul>
+			<br>
+			DELANI STUDIOS<br>
+			2015
+		</footer>
+	</div>		
+	<!--</div>-->
+		<script>
+	      	$(function() {
+	  		$('a[href*=#]:not([href=#])').click(function() {
+	    	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      	var target = $(this.hash);
+	      	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      	if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
+</body>
+</html>

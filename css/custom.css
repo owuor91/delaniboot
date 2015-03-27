@@ -1,0 +1,38 @@
+.my-container{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+#home{
+	background-image: url('../assets/backgrounds/h_img.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center; 
+	color:#fff;
+	height: 665px;
+}
+
+#home div span{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.home-first{
+	padding: 80px 0 20px 0;
+}
+
+.home-last{
+	padding-top: 150px;
+}
+
+#about{
+	height: 330px;
+}
+
+*{
+	padding: 0;
+	margin:0;
+}
